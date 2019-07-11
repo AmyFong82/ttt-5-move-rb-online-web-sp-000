@@ -9,3 +9,5 @@ display_board(board)
 Where would you like to go?
 input = gets.strip
 index = input_to_index(input)
+move(board, index, player)
+display_board(board)
